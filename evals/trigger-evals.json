@@ -1,0 +1,82 @@
+[
+  {
+    "query": "i've got this half-formed idea for a churn dashboard and honestly no idea how to brief the AI on it — can you help me work out what to even ask for?",
+    "should_trigger": true
+  },
+  {
+    "query": "before we touch any code, help me shape a brief for the AI so the contractor handing off the stripe migration knows exactly what 'done' means — deadline's the 24th and wrong data here means we double-charge customers.",
+    "should_trigger": true
+  },
+  {
+    "query": "steering committee is in 20 minutes and the warehouse migration slipped again — let's think this through in 4D so i can walk in with a clear story instead of hand-waving.",
+    "should_trigger": true
+  },
+  {
+    "query": "/4d-brief our onboarding emails are terrible and I don't know where to start",
+    "should_trigger": true
+  },
+  {
+    "query": "/4d-brief we need to replace the legacy inventory spreadsheet before the auditors arrive Nov 15",
+    "should_trigger": true
+  },
+  {
+    "query": "the pricing page feels off and i cant articulate why — can you help me figure out what i'm actually trying to change before i write the brief for a designer?",
+    "should_trigger": true
+  },
+  {
+    "query": "i'm about to hand the Q3 board update to an AI and i don't trust it with tone — investors read this — how do i brief it so the first draft isn't garbage?",
+    "should_trigger": true
+  },
+  {
+    "query": "how do i describe this task to an assistant? it's a CRM export cleanup, millions of rows, and finance will act on the numbers without re-checking them, so i can't just say 'clean the data'.",
+    "should_trigger": true
+  },
+  {
+    "query": "i want some kind of internal tool so support can issue refunds without pinging engineering, but that's all i've got — nothing written down yet. can you help me turn this into a brief i can hand to an AI?",
+    "should_trigger": true
+  },
+  {
+    "query": "my co-founder wants to just paste our vendor-comparison project into chatgpt and hope, but i don't know what to keep for myself — can we work out the split before i write the prompt?",
+    "should_trigger": true
+  },
+  {
+    "query": "write me a prompt that turns natural language into SQL for our support bot",
+    "should_trigger": false
+  },
+  {
+    "query": "let's brainstorm a name for my podcast — something with cold brew in it if you can",
+    "should_trigger": false
+  },
+  {
+    "query": "explain what the 4 Ds of AI fluency actually are",
+    "should_trigger": false
+  },
+  {
+    "query": "run the payments unit tests and fix whatever's failing",
+    "should_trigger": false
+  },
+  {
+    "query": "can you tighten the wording of the 4d worksheet i generated last week? the assumptions section reads like a legal doc.",
+    "should_trigger": false
+  },
+  {
+    "query": "here's the brief we already settled on — go ahead and draft the three outreach emails from it, i need them before tuesday's board call",
+    "should_trigger": false
+  },
+  {
+    "query": "i ran /4d-brief last week and can't find the worksheet — does this skill write the file somewhere i'm not looking?",
+    "should_trigger": false
+  },
+  {
+    "query": "staging's been throwing 500s on /orders since this morning's migration and the on-call channel is on fire — fix it",
+    "should_trigger": false
+  },
+  {
+    "query": "review this PR when you get a sec — it's the rate-limiter rewrite and i want to merge before the freeze starts friday",
+    "should_trigger": false
+  },
+  {
+    "query": "honest take: is delegating code review to AI actually worth it or is it hype? tell me what you really think",
+    "should_trigger": false
+  }
+]

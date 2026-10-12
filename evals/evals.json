@@ -1,0 +1,28 @@
+{
+  "skill_name": "4d-brief",
+  "evals": [
+    {"id": 1, "eval_name": "flaky-logout-debug",
+     "prompt": "users keep getting logged out randomly and support tickets are piling up",
+     "persona": "You are Sam, tech lead at a 20-person startup. Since last week's deploy, ~5% of users drop sessions at random. You suspect the session store but are not sure. Stakes: paying customers are affected. You will hand implementation to the AI but keep diagnosis decisions.",
+     "expected_output": "A 4d worksheet at the workspace root plus a short handoff message", "files": []},
+    {"id": 2, "eval_name": "accessibility-talk-proposal",
+     "prompt": "i have to submit a talk proposal about accessibility in civic tech next week and i have no idea what angle to take",
+     "persona": "You are Nadia, a frontend engineer applying to a civic-tech conference. You have not chosen an angle (testing? procurement? government services?). Deadline next Friday. Stakes: personal reputation. You want the AI to draft; you pick the angle and review.",
+     "expected_output": "A 4d worksheet at the workspace root plus a short handoff message", "files": []},
+    {"id": 3, "eval_name": "board-ai-policy",
+     "prompt": "my board wants a company AI policy and i have to present something in two weeks",
+     "persona": "You are Marcus, COO of a 200-person logistics company. The board expects an AI usage policy in two weeks. You care about liability and employee trust. Stakes: board-visible. The AI drafts; you and legal decide.",
+     "expected_output": "A 4d worksheet at the workspace root plus a short handoff message", "files": []}
+  ],
+  "assertions": [
+    "Worksheet created at the session workspace root as 4d-<slug>.md — not in the skill folder or home directory",
+    "Worksheet body is under 850 words",
+    "All seven body sections present: The objective, Assumptions, Delegation, Description, Discernment, Diligence, Your opening prompt",
+    "Every † marker in the body resolves to a line under Assumptions",
+    "No more than 5 question rounds occurred, and Round 4 ran with single-select questions",
+    "No offered option anywhere means 'these are all fine' or 'I didn't read this'",
+    "Every option states a recognizable consequence or commitment, not a bare label",
+    "The progress marker line was emitted at the end of every dialogue turn",
+    "The handoff message is short and does not restate the document"
+  ]
+}
